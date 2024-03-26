@@ -1,0 +1,197 @@
+	  body {
+		margin: 0;
+		padding: 0;
+		background-color: #e9ebed;
+	  }
+
+	.TextComp {
+		background-color: #e9ebed;
+		border-radius: 10px;
+		max-width: 802px;
+		margin: -20px 125px 30px 125px;
+		box-shadow: 0px 5px 10px #888888;
+		padding-left: 30px;
+		padding-right: 30px;
+		text-align: justify;
+	}
+	
+	.TextIncial {
+		font-size: 22px; 
+		font-family: 'Cambria Math', sans-serif; 
+		font-weight: bold; 
+		text-align: center;
+	}
+	
+	.TextMvP {
+		font-family: Kallamar, Kallamar; 
+		font-weight: bold; 
+		font-size: 24px; 
+		color: #8a0303;		
+	}	
+
+	.obj {
+	    user-select: none;
+        cursor: pointer;
+		z-index: 10;
+        position: absolute;
+        transition: transform 2s, transform-origin 2s;
+		filter: grayscale(100%);
+	}
+
+	.boxVitrine {
+		display: inline-block; 
+		color: rgb(128, 128, 128); 
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 14px; 
+		font-weight: bold; 
+		justify-content: left;
+		align-items: left;
+		text-align: left;
+		margin-left: 10px; 
+		margin-right: 10px;
+	}
+	
+	.main-content {
+		font-size: 16px;
+		background-color: #1d262c;
+		border-radius: 10px;
+		font-family: 'Cambria Math', sans-serif;
+		font-weight: bold; 
+		color: #e9ebed;
+		display: flex; 
+		align-items: center; 
+		justify-content: center; 
+		text-align: center;
+	}
+	
+    .clickable-div {
+        cursor: pointer;
+		display: inline-block;
+    }
+
+	p, h1, h2 {
+		margin-top: 0px;
+	}
+
+    .forum-title {
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: "Noto Sans", sans-serif;
+	  color: #ff8022;
+    }
+
+	.boxVitrine img {
+		width: 315px;
+		height: 240px;
+		border-radius: 5px;
+	}
+
+	.TopoGuia {
+		font-family: 'Comic Sans', sans-serif; 
+		font-size: 18px; 
+		font-weight: bold;
+	}
+	
+	.boxDoar {
+		font-family: 'Comic Sans MS', sans-serif; 
+		color: darkred; 
+		font-size: 14px; 
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+		
+	.buttonMap {
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.buttonMap {
+		transition: filter 0.3s;
+	}
+
+	.buttonMap:hover {
+		filter: grayscale(100%);
+	}
+	
+	div.col2 {
+		column-count: 2;
+		column-width:354px;
+		column-gap:32px;
+		column-rule: 1px solid gray;  
+	}
+
+    li {
+        margin-left: 18em;
+    }
+	
+    input[type="radio"] {
+      display: none;
+    }
+
+    #toggle0:checked ~ .Diario {
+      display: block;
+    }
+
+    #toggle1:checked ~ .Carta1 {
+      display: block;
+    }
+
+    #toggle2:checked ~ .Carta2 {
+      display: block;
+    }
+	
+	#toggle3:checked ~ .Carta3 {
+      display: block;
+    }
+
+	#toggle4:checked ~ .Carta4 {
+      display: block;
+    }
+
+	#toggle5:checked ~ .Carta5 {
+      display: block;
+    }
+
+	#toggle6:checked ~ .Carta6 {
+      display: block;
+    }
+
+	#toggle7:checked ~ .Carta7 {
+      display: block;
+    }
+
+	#toggle8:checked ~ .Carta8 {
+      display: block;
+    }
+
+	#toggle9:checked ~ .Carta9 {
+      display: block;
+    }
+
+	#toggle10:checked ~ .Carta10 {
+      display: block;
+    }
+
+	.Diario,
+    .Carta1,
+    .Carta2,
+	.Carta3,
+	.Carta4,
+	.Carta5,
+	.Carta6,
+	.Carta7,
+	.Carta8,
+	.Carta9,
+	.Carta10 {
+      display: none;
+    }
+
+    .toggle-label {
+      cursor: pointer;
+    }
+	

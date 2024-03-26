@@ -1,0 +1,100 @@
+	body {
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0;
+	  background-color: #e9ebed;
+	  background-image: url('https://images.squarespace-cdn.com/content/v1/58fe88dd59cc68aee3bc723c/1524092787695-87PEFS96KZYT3LWHX1TJ/DragonGif12fps.gif');
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+	}
+
+	  body {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		background-color: #e9ebed;
+		background-image: 
+		background-size: cover;
+		background-repeat: no-repeat;
+	  }
+
+	.boxVitrine {
+		display: inline-block; 
+		color: rgb(128, 128, 128); 
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 14px; 
+		font-weight: bold; 
+		font-style: italic;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-left: 30px; 
+		margin-right: 30px;
+	}
+	
+	.main-content {
+		font-size: 16px;
+		background-color: #1d262c;
+		border-radius: 10px;
+		font-family: 'Cambria Math', sans-serif;
+		font-weight: bold; 
+		color: #e9ebed;
+		display: flex; 
+		align-items: center; 
+		justify-content: center; 
+		text-align: center;
+	}
+	
+    .clickable-div {
+        cursor: pointer;
+		display: inline-block;
+    }
+
+	p, h1, h2 {
+		margin-top: 0px;
+	}
+
+    .forum-title {
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: "Noto Sans", sans-serif;
+	  color: #ff7f00;
+    }
+
+	.boxVitrine img {
+		width: 120px;
+		height: 120px;
+		border-radius: 5px;
+	}
+
+	.TopoGuia {
+		font-family: 'Comic Sans', sans-serif; 
+		font-size: 18px; 
+		font-weight: bold;
+	}
+	
+	.boxDoar {
+		font-family: 'Comic Sans', sans-serif; 
+		color: darkred; 
+		font-size: 14px; 
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+		
+	.buttonMap {
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.buttonMap {
+		transition: filter 0.3s;
+	}
+
+	.buttonMap:hover {
+		filter: grayscale(100%);
+	}

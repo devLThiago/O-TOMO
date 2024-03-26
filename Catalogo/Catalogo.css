@@ -1,0 +1,259 @@
+	  body {
+		margin: 0;
+		padding: 0;
+		background-color: #e9ebed;
+	  }
+	
+	.main-content {
+		font-size: 16px;
+		background-color: #1d262c;
+		border-radius: 10px;
+		font-family: 'Cambria Math', sans-serif;
+		font-weight: bold; 
+		color: #e9ebed;
+		display: flex; 
+		align-items: center; 
+		justify-content: center; 
+		text-align: center;
+	}
+	
+    .clickable-div {
+		display: inline-block;
+        cursor: pointer;
+		margin-top: 0;
+    }
+
+	p, h1, h2 {
+		margin-top: -6px;
+	}
+	
+	.ordem img {
+	  width: 40px;
+	  border-radius: 50%;
+	  display: block;
+	  margin: 0 auto;
+	  color: black;
+	}
+	
+	.tipos {
+	
+	}
+	
+	.desc-tip {
+	  display: none;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  transform: translate(0, calc(20px));
+	  z-index: 9999;
+	  font-style: italic;
+	  background-color: #E6E6E6;
+	  margin-top: 10px;
+	  padding: 10px;
+	  text-align: justify;
+	  border-radius: 5px;
+	  width: 180px;
+	  font-size: 12px;
+	  font-family: "Noto Sans", sans-serif;	}
+	
+	button {
+	  background-color: #4CAF50;
+	  color: white;
+	  font-size: 16px;
+	  border: none;
+      border-radius: 5px;
+	  padding: 10px 20px;
+  	  margin-left: 10px;
+	  cursor: pointer;
+	}
+
+	button:hover {
+	  background-color: #3e8e41; 
+	}
+		
+    .forum-title {
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: "Noto Sans", sans-serif;
+	  color: #ff7f00;
+    }
+
+	.container {
+	  display: flex;
+	  gap: 1%;
+	  justify-content: center;
+	  flex-wrap: wrap;
+	}
+	
+	.card {
+	  border: 1px;
+	  padding: 10px;
+	  margin-bottom: 10px;
+	  border-radius: 10px;
+	  background-color: #6FCFCF;
+	  width: 180px;
+	}
+	
+	.title {
+	  background-color: #E6E6E6;
+	  display: inline-block;
+	  border: 1px;
+	  height: 50%;
+	  width: 90%;
+	  border-radius: 10px;
+	  padding: 5px;
+	  margin-bottom: 10px;
+	  padding: 5px;
+	  font-size: 14px;
+	  color: black;
+	  text-align: center;
+	  font-weight: bold;
+	  font-family: "Noto Sans", sans-serif;
+	}
+
+	.avatar {
+	  text-align: center;
+	  width: 100%;
+	  height: 100%;
+	  background-color: transparent;
+	  display: inline-block;
+	  border: none;
+	  box-shadow: none;
+	  height: 100%;
+	  width: 100%;
+	  border-radius: 10px;
+	  padding: 5px;
+	  margin-bottom: 10px;
+	  padding: 5px;
+	  text-align: center;
+	  pointer-events: none;
+	  user-select: none;
+	}
+
+	.avatar img {
+	  width: 80px;
+	  height: 140px;
+	}
+
+	.description {
+	  font-style: italic;
+	  background-color: #6FCFCF;
+	  margin-top: 10px;
+	  padding: 10px;
+	  text-align: justify;
+	  border-radius: 20px;
+	  height: 80px; 
+	  font-size: 12px;
+	  overflow-y: scroll;
+	  font-family: "Noto Sans", sans-serif;
+	}
+
+	.tipo {
+	  display: inline-block;
+	  border: 1px;
+	  height: 50%;
+	  width: 50%;
+	  border-radius: 10px;
+	  padding: 5px;
+	  margin: 5px;
+	  font-size: 12px;
+	  color: white;
+	  text-align: center;
+	  font-family: "Noto Sans", sans-serif;
+	  font-weight: bold;
+  	  cursor: pointer;
+	  user-select: none;
+	  
+	}
+
+	.Etereo {
+	  background-color: black;
+	}
+
+	.Caeli {
+	  background-color: gray;
+	}
+
+	.Ignus {
+	  background-color: red;
+	}
+	
+	.Aqua {
+	  background-color: blue;
+	}
+
+	.Feerico {
+	  background-color: orange;
+	}
+	
+	.Sobreterra {
+	  background-color: green;
+	}
+	
+	.Limbo {
+	  background-color: #2E2F4F;
+	}
+	
+	.Abismo {
+	  background-color: indigo;
+	}
+	
+	.Submundo {
+	  background-color: mediumvioletred;
+	}
+
+	.Tormento {
+	  background-color: crimson;
+	}
+
+	.filter {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin-bottom: 20px;
+	}
+
+	.filter label {
+	  font-size: 14px;
+	  margin: 0 10px;
+	}
+
+	.filter input[type="checkbox"] {
+	  margin-right: 5px;
+	}
+
+	table {
+	  border-collapse: collapse; /* combina as bordas da tabela em uma única borda */
+	  width: 100%; /* define a largura da tabela como 100% da largura do contêiner pai */
+	  font-family: "Noto Sans", sans-serif;
+	  font-size: 12px; /* define o tamanho da fonte do texto da tabela */
+	}
+
+	th {
+	  background-color: #444; /* define a cor de fundo das células de cabeçalho */
+	  color: #fff; /* define a cor do texto das células de cabeçalho */
+	  font-weight: bold; /* define o peso da fonte das células de cabeçalho */
+	}
+
+	td {
+	  border: 1px solid #ddd; /* define a largura, estilo e cor da borda da célula */
+	  padding: 5px; /* define o preenchimento interno das células */
+	  text-align: center; /* define o alinhamento horizontal do texto dentro da célula */
+	}
+
+	table tr th:nth-child(2) {
+	  color: #00b0f0;
+	}
+
+	table tr th:nth-child(1) {
+	  color: #ffc000;
+	}
+
+	table tr td:nth-child(1), 
+	table tr td:nth-child(2) {
+	  color: white;
+	  
+	}
